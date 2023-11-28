@@ -1,0 +1,132 @@
+
+.formulario-chatbot {
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-chatbot h1 {
+  color: #333333;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.formulario-chatbot h4 {
+  color: #D3C9C9;
+  margin-bottom: 24px;
+}
+
+.formulario-chatbot form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-chatbot label {
+  color:#4969c2 ;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.formulario-chatbot input[type="text"],
+.formulario-chatbot select,
+.formulario-chatbot textarea {
+  padding: 12px;
+  margin-top: 5px;
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.formulario-chatbot button {
+  background-color: #4969c2;
+  color: #ffffff;
+  padding: 12px 24px;
+  margin-top: 32px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.formulario-chatbot button:hover {
+  background-color: #4969c2;
+}
+
+.formulario-chatbot input[type="file"] {
+  border: 2px dashed #dddddd;
+  padding: 16px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.formulario-chatbot textarea {
+  height: 120px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.formulario-chatbot .price-link {
+  color: #4969c2;
+  text-decoration: underline;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.formulario-chatbot a {
+  color: #4969c2;
+  text-decoration: none;
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.formulario-chatbot a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .formulario-chatbot {
+    margin: 20px;
+    width: calc(100% - 40px);
+  }
+}
+
+.navigation {
+  margin: 20px 0;
+}
+
+.nav-button {
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: black; 
+  background-color: #eee; 
+ 
+}
+
+.navigation {
+  margin: 20px 0;
+}
+
+.nav-button {
+  background-color: #eee; 
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.nav-button.active {
+  background-color: #ddd; 
+}
+
+
